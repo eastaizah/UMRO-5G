@@ -7,16 +7,6 @@ Este directorio contiene el material base del artículo (formato tipo revista) y
 
 ## 1) Contenido del directorio
 
-### Artículo / secciones (Markdown)
-- **`Management_Orchestration_5G_Resources_MDPI_Computation.md`**  
-  Manuscrito principal en formato *MDPI Computation* (Review/Survey). Incluye el marco unificado y la propuesta **UMRO-5G**, además de la sección de validación numérica (simulaciones).
-- **`Management_Orchestration_5G_AI_Native_6G_IEEE.md`**  
-  Versión/derivado orientado a formato IEEE (AI-native / 6G).
-- **`framework_section.md`**  
-  Sección enfocada al framework (UMRO-5G).
-- **`taxonomy_comparative_section.md`**  
-  Sección de taxonomía + análisis comparativo de literatura.
-
 ### Simulaciones
 - **`simulations/`**: suite de simulaciones en Python.
   - **`run_all.py`**: ejecuta todas las simulaciones en secuencia y lista las figuras generadas.
