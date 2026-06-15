@@ -1,5 +1,5 @@
 
-# 5G_Orch — Resource Management & Orchestration in 5G (UMRO-5G) + Simulation Suite
+# Resource Management & Orchestration in 5G (UMRO-5G) + Simulation Suite
 
 Este directorio contiene el material base del artículo (formato tipo revista) y un conjunto de simulaciones en Python que reproducen y apoyan resultados numéricos relacionados con **gestión de recursos y orquestación en redes 5G**, incluyendo slicing, planificación (scheduling), latencia en SFC, convergencia DRL y comparación de complejidad computacional.
 
@@ -35,7 +35,7 @@ Este directorio contiene el material base del artículo (formato tipo revista) y
 > Nota: los scripts usan backend no interactivo (`Agg`) para generar figuras sin requerir entorno gráfico.
 
 ### Ejecutar toda la suite (recomendado)
-Desde el directorio `5G_Orch/simulations`:
+Desde el directorio `UMRO-5G/simulations`:
 
 ```bash
 python3 run_all.py
@@ -43,7 +43,7 @@ python3 run_all.py
 
 Este comando:
 1. Ejecuta las simulaciones en el orden definido.
-2. Genera las figuras en `5G_Orch/simulations/figures/`.
+2. Genera las figuras en `UMRO-5G/simulations/figures/`.
 3. Imprime un resumen (tiempos, estado OK/FAILED y listado de PNGs).
 
 ---
@@ -98,7 +98,7 @@ La suite se organiza como un “runner” unificado (`run_all.py`) con 5 simulac
 ## 4) Notas de uso y estructura de salida
 
 - Todas las figuras se almacenan en:
-  - `5G_Orch/simulations/figures/`
+  - `UMRO-5G/simulations/figures/`
 - Si deseas limpiar resultados previos:
   - elimina manualmente los `.png` de `figures/` y vuelve a correr `run_all.py`.
 
@@ -107,7 +107,7 @@ La suite se organiza como un “runner” unificado (`run_all.py`) con 5 simulac
 ## 5) Referencia rápida (árbol de archivos)
 ```
 
-5G_Orch/
+UMRO-5G/
 ├─ Management_Orchestration_5G_Resources_MDPI_Computation.md
 ├─ Management_Orchestration_5G_AI_Native_6G_IEEE.md
 ├─ framework_section.md
