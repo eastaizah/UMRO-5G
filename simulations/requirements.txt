@@ -1,0 +1,16 @@
+# UMRO-5G simulation package -- runtime dependencies.
+#
+# Pinned to the exact versions used to produce simulations/results/ and figures/.
+# Nothing else is required: no deep-learning framework, no pandas, no solver.
+# The reinforcement-learning agents in learners.py are implemented directly in NumPy
+# with hand-written backpropagation, and every CSV is written with the standard
+# library `csv` module.
+#
+# Python 3.13.0 (CPython, 64-bit)
+
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+
+# Development / verification only (not needed to reproduce the numbers):
+pytest==9.1.1
